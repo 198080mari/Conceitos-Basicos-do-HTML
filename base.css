@@ -5,13 +5,14 @@ body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    color: dark gray;
 }
 
 .wrapper {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: #F4A460;
 }
 .main {
     display: flex;
@@ -20,11 +21,12 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #B0C4DE;
     padding: 10px 20px 0px;
+    color: #4B0082;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #FFF0F5;
     min-height: 150px;
 }
 .content {
@@ -33,6 +35,12 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #E6E6FA;
     min-height: 150px;
+}
+h4 {
+    color: #00008B;
+}
+table {
+    box-shadow: 5px 5px 15px -6px #000000;
 }
